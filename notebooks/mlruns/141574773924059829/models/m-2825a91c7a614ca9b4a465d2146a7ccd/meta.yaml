@@ -1,0 +1,10 @@
+artifact_location: file:///home/avinash/Desktop/AutoTaxAI-End-to-End-Tax-Prediction-with-MLflow-DVC-and-Docker/notebooks/mlruns/141574773924059829/models/m-2825a91c7a614ca9b4a465d2146a7ccd/artifacts
+creation_timestamp: 1750023216767
+experiment_id: '141574773924059829'
+last_updated_timestamp: 1750023295185
+model_id: m-2825a91c7a614ca9b4a465d2146a7ccd
+model_type: null
+name: model
+source_run_id: a46da0974f0e403dba3d89fff2075a35
+status: 2
+status_message: null

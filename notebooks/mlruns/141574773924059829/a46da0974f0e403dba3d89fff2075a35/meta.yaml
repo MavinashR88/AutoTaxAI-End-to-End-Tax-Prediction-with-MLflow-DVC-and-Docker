@@ -1,0 +1,14 @@
+artifact_uri: file:///home/avinash/Desktop/AutoTaxAI-End-to-End-Tax-Prediction-with-MLflow-DVC-and-Docker/notebooks/mlruns/141574773924059829/a46da0974f0e403dba3d89fff2075a35/artifacts
+end_time: 1750023795250
+entry_point_name: ''
+experiment_id: '141574773924059829'
+lifecycle_stage: active
+run_id: a46da0974f0e403dba3d89fff2075a35
+run_name: keras_tuner_search
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750022928596
+status: 4
+tags: []
+user_id: avinash

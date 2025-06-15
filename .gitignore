@@ -135,6 +135,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+notebooks/tuner_logs
+
+notebooks/mlruns
+
 
 # Spyder project settings
 .spyderproject
