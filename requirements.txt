@@ -19,3 +19,4 @@ matplotlib
 seaborn
 requests
 keras_tuner
+joblib
