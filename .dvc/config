@@ -1,0 +1,6 @@
+[core]
+    autostage = true
+    remote = origin
+['remote "origin"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/MavinashR88/AutoTaxAI-End-to-End-Tax-Prediction-with-MLflow-DVC-and-Docker.s3

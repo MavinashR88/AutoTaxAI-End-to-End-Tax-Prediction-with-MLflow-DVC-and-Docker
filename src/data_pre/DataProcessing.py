@@ -121,12 +121,26 @@ class Preprocessing:
             self.scale_data()
             self.logger.info("Pipeline executed successfully.")
 
-            return {
-                'X_train': self.X_train_scaled,
-                'X_test': self.X_test_scaled,
-                'y_train': self.y_train,
-                'y_test': self.y_test
-            }
+            external_dir = os.path.join("data", "external")
+            os.makedirs(external_dir, exist_ok=True)
+
+            # Step 2: Create full file paths
+            X_train_path = os.path.join(external_dir, "X_train.csv")
+            X_test_path = os.path.join(external_dir, "X_test.csv")
+            y_train_path = os.path.join(external_dir, "y_train.csv")
+            y_test_path = os.path.join(external_dir, "y_test.csv")
+            # Step 3: Save the train and test sets
+            self.logger.info("Saving train and test sets to external directory...")
+            # Step 3: Save to CSV
+            pd.DataFrame(self.X_train_scaled).to_csv(X_train_path, index=False)
+            self.logger.info(f"X_train saved to: {X_train_path}")
+            pd.DataFrame(self.X_test_scaled).to_csv(X_test_path, index=False)
+            self.logger.info(f"X_test saved to: {X_test_path}")
+            pd.DataFrame(self.y_train).to_csv(y_train_path, index=False)
+            self.logger.info(f"y_train saved to: {y_train_path}")
+            pd.DataFrame(self.y_test).to_csv(y_test_path, index=False)
+            self.logger.info(f"y_test saved to: {y_test_path}")
+
         except Exception as e:
             self.logger.critical(f"Pipeline failed: {e}")
             raise
