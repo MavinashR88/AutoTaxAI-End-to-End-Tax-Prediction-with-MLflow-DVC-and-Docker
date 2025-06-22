@@ -1,5 +1,4 @@
-from src.data_pre.DataProcessing import Preprocessing
+from src.model.build_train import ANNPipeline
 
-pipeline = Preprocessing("data/raw/HousingData.csv")
-result = pipeline.run_pipeline()
-
+pipeline = ANNPipeline()
+pipeline.run_pipeline()

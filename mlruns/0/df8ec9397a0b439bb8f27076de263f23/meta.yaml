@@ -1,0 +1,14 @@
+artifact_uri: file:///home/avinash/Desktop/AutoTaxAI-End-to-End-Tax-Prediction-with-MLflow-DVC-and-Docker/mlruns/0/df8ec9397a0b439bb8f27076de263f23/artifacts
+end_time: 1750609630176
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: df8ec9397a0b439bb8f27076de263f23
+run_name: ANN Regression Pipeline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750609630146
+status: 4
+tags: []
+user_id: MavinashR88
